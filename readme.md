@@ -18,12 +18,14 @@ to install docker-compose: https://docs.docker.com/compose/install/
   1. create folder structure based on your package name. For instance, if your package is going to be github.com/yourname/blog, create folders github.com/yourname/blog, and put this project into it.
   2. edit template.sh for the 'export' part.
 
-export project_name=vblog
-export package_name=github.com/yourname
-export entity_capital=Blog
-export entity=blog
-export entity_plural=blogs
-export entity_capital_plural=Blogs  
+ 
+    export project_name=vblog
+    export package_name=github.com/yourname
+    export entity_capital=Blog
+    export entity=blog
+    export entity_plural=blogs
+    export entity_capital_plural=Blogs
+ 
 
   3. sudo chmod +x template.sh && ./template.sh
   4. go to scripts folder and run 'sudo chmod +x create_db.sh && sudo ./create_db.sh'
