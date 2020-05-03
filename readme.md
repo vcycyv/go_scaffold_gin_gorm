@@ -1,6 +1,6 @@
 # Read Me
 
-It is a scaffold project to help quickly setup a golang based web application. The web framework being used is gin. Gorm is used for persistence. You can set some parameters, and then a new runnable project can be generated. The project receives Rest API to do the CRUD operation. It also guides how to setup database.
+It is a scaffold project to help quickly setup a golang based web application. The web framework being used is gin. Gorm is used for persistence. You can set some parameters, and then a new runnable project can be generated. The project receives Rest API call to do the CRUD operation. It also guides how to setup database.
 
 Two goals to achieve:
   1. easy to setup
@@ -29,7 +29,7 @@ to install docker-compose: https://docs.docker.com/compose/install/
 
   3. sudo chmod +x template.sh && ./template.sh
   4. go to scripts folder and run 'sudo chmod +x create_db.sh && sudo ./create_db.sh'
-  5. Connect to postgres with any clients. I use DBeaver for most of time, sometimes pgAdmin. user/password: postgres/postgres, the db name can be found in docker-compose.yaml. Open db.sql, to run the content, for example,
+  5. Connect to postgres with any clients. I use DBeaver for most of time, sometimes pgAdmin. user/password: postgres/postgres, the db name can be found in docker-compose.yaml. Open db.sql and run the content, for example,
      Run script:
 
 
@@ -46,7 +46,12 @@ to install docker-compose: https://docs.docker.com/compose/install/
   6. run 'go run main.go '
     then you will see output something like this (it is blogs because in template.sh, it uses 'blog' in template.sh):
 
- *[GIN-debug] GET /test --> github.com/vcycyv/vblog/routers.InitRouter.func1 (3 handlers) [GIN-debug] GET /blogs --> github.com/vcycyv/vblog/routers.GetBlogs (3 handlers) [GIN-debug] GET /blogs/:id --> github.com/vcycyv/vblog/routers.GetBlog (3 handlers) [GIN-debug] POST /blogs --> github.com/vcycyv/vblog/routers.AddBlog (3 handlers) [GIN-debug] PUT /blogs/:id --> github.com/vcycyv/vblog/routers.EditBlog (3 handlers) [GIN-debug] DELETE /blogs/:id --> github.com/vcycyv/vblog/routers.DeleteBlog (3 handlers)*
+           [GIN-debug] GET    /test                     --> github.com/vcyreg/vblog/routers.InitRouter.func1 (3 handlers)
+    	   [GIN-debug] GET    /blogs                    --> github.com/vcyreg/vblog/routers.GetBlogs (3 handlers)
+    	   [GIN-debug] GET    /blogs/:id                --> github.com/vcyreg/vblog/routers.GetBlog (3 handlers)
+    	   [GIN-debug] POST   /blogs                    --> github.com/vcyreg/vblog/routers.AddBlog (3 handlers)
+    	   [GIN-debug] PUT    /blogs/:id                --> github.com/vcyreg/vblog/routers.EditBlog (3 handlers)
+    	   [GIN-debug] DELETE /blogs/:id                --> github.com/vcyreg/vblog/routers.DeleteBlog (3 handlers)
 
    Congratulations! You have a runnable project to start with!
 
