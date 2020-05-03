@@ -15,7 +15,7 @@ to install docker: https://docs.docker.com/engine/install/
 to install docker-compose: https://docs.docker.com/compose/install/
 
 ## Steps to setup:
-  1. create folder structure based on your package name. For instance, if your package is going to be github.com/yourname/blog, create folders github.com/yourname/blog, and put this project into it.
+  1. create folder structure based on your package name. For instance, if your package is going to be github.com/yourname/vblog, create folders github.com/yourname/vblog, and put this project into it.
   2. edit template.sh for the 'export' part.
 
  
