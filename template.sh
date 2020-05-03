@@ -1,5 +1,5 @@
 export project_name=vblog
-export package_name=github.com/vcyreg
+export package_name=github.com/vcycyv
 export entity_capital=Blog
 export entity=blog
 export entity_plural=blogs
