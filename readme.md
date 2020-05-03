@@ -46,7 +46,7 @@ to install docker-compose: https://docs.docker.com/compose/install/
   6. run 'go run main.go '
     then you will see output something like this (it is blogs because in template.sh, it uses 'blog' in template.sh):
 
-         [GIN-debug] GET    /test                     --> github.com/vcyreg/vblog/routers.InitRouter.func1 (3 handlers)
+           [GIN-debug] GET    /test                     --> github.com/vcyreg/vblog/routers.InitRouter.func1 (3 handlers)
     	   [GIN-debug] GET    /blogs                    --> github.com/vcyreg/vblog/routers.GetBlogs (3 handlers)
     	   [GIN-debug] GET    /blogs/:id                --> github.com/vcyreg/vblog/routers.GetBlog (3 handlers)
     	   [GIN-debug] POST   /blogs                    --> github.com/vcyreg/vblog/routers.AddBlog (3 handlers)
