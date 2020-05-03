@@ -29,7 +29,7 @@ to install docker-compose: https://docs.docker.com/compose/install/
 
   3. sudo chmod +x template.sh && ./template.sh
   4. go to scripts folder and run 'sudo chmod +x create_db.sh && sudo ./create_db.sh'
-  5. Connect to postgres with any clients. I use DBeaver for most of time, sometimes pgAdmin. user/password: postgres/postgres, the db name can be found in docker-compose.yaml. Open db.sql, to run the content, for example,
+  5. Connect to postgres with any clients. I use DBeaver for most of time, sometimes pgAdmin. user/password: postgres/postgres, the db name can be found in docker-compose.yaml. Open db.sql and run the content, for example,
      Run script:
 
 
