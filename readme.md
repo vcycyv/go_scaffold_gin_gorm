@@ -1,6 +1,6 @@
 # Read Me
 
-It is a scaffold project to help quickly setup a golang based web application. The web framework being used is gin. Gorm is used for persistence. You can set some parameters, and then a new runnable project can be generated. The project receives Rest API to do the CRUD operation. It also guides how to setup database.
+It is a scaffold project to help quickly setup a golang based web application. The web framework being used is gin. Gorm is used for persistence. You can set some parameters, and then a new runnable project can be generated. The project receives Rest API call to do the CRUD operation. It also guides how to setup database.
 
 Two goals to achieve:
   1. easy to setup
