@@ -1,4 +1,4 @@
-# Read Me
+#Read Me
 
 It is a scaffold project to help quickly setup a golang based web application. The web framework being used is gin. Gorm is used for persistence. You can set some parameters, and then a new runnable project can be generated. The project receives Rest API to do the CRUD operation. It also guides how to setup database.
 
@@ -6,15 +6,15 @@ Two goals to achieve:
   1. easy to setup
   2. relatively good practice
 
-# How to setup
+#How to setup
 
-## Prerequisites:
+##Prerequisites:
 
 docker and docker-compose should be ready to use.
 to install docker: https://docs.docker.com/engine/install/
 to install docker-compose: https://docs.docker.com/compose/install/
 
-## Steps to setup:
+##Steps to setup:
   1. create folder structure based on your package name. For instance, if your package is going to be github.com/yourname/blog, create folders github.com/yourname/blog, and put this project into it.
   2. edit template.sh for the 'export' part.
 
